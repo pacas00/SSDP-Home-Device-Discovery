@@ -1,7 +1,7 @@
-﻿using ConsoleApp1.Enums;
-using ConsoleApp1.Interfaces;
+﻿using DeviceDiscovery.Enums;
+using DeviceDiscovery.Interfaces;
 
-namespace ConsoleApp1.Models
+namespace DeviceDiscovery.Models
 {
     internal class ST : IST
     {

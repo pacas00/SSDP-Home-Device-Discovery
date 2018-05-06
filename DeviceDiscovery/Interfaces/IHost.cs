@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1.Interfaces
+﻿namespace DeviceDiscovery.Interfaces
 {
     public interface IHost
     {

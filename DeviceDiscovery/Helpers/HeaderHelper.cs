@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp1.Helpers
+namespace DeviceDiscovery.Helpers
 {
     public static class HeaderHelper
     {

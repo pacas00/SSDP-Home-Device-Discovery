@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.Interfaces
+namespace DeviceDiscovery.Interfaces
 {
     public interface IControlPoint
     {

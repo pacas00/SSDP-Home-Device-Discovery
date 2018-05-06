@@ -2,13 +2,13 @@
 using System.Reactive.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ConsoleApp1.Enums;
-using ConsoleApp1.Helpers;
-using ConsoleApp1.Interfaces;
-using ConsoleApp1.Models;
+using DeviceDiscovery.Enums;
+using DeviceDiscovery.Helpers;
+using DeviceDiscovery.Interfaces;
+using DeviceDiscovery.Models;
 using ISimpleHttpServer.Service;
 
-namespace ConsoleApp1
+namespace DeviceDiscovery
 {
     public class ControlPoint : IControlPoint
     {

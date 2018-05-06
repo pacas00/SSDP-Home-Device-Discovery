@@ -1,6 +1,6 @@
-﻿using ConsoleApp1.Enums;
+﻿using DeviceDiscovery.Enums;
 
-namespace ConsoleApp1.Interfaces
+namespace DeviceDiscovery.Interfaces
 {
     public interface IST
     {

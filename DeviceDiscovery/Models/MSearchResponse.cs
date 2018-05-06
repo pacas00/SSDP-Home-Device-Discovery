@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using ConsoleApp1.Enums;
-using ConsoleApp1.Helpers;
-using ConsoleApp1.Interfaces;
+using DeviceDiscovery.Enums;
+using DeviceDiscovery.Helpers;
+using DeviceDiscovery.Interfaces;
 using ISimpleHttpServer.Model;
-using Convert = ConsoleApp1.Helpers.Convert;
+using Convert = DeviceDiscovery.Helpers.Convert;
 
-namespace ConsoleApp1.Models
+namespace DeviceDiscovery.Models
 {
     public class MSearchResponse : IMSearchResponse
     {

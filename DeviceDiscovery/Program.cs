@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
-using ConsoleApp1.Enums;
-using ConsoleApp1.Interfaces;
-using ConsoleApp1.Models;
+using DeviceDiscovery.Enums;
+using DeviceDiscovery.Interfaces;
+using DeviceDiscovery.Models;
 using ISimpleHttpServer.Service;
 using ISocketLite.PCL.Interface;
 using SimpleHttpServer.Service;
 using SocketLite.Model;
 
-namespace ConsoleApp1
+namespace DeviceDiscovery
 {
     class Program
     {

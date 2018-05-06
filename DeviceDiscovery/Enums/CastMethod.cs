@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1.Enums
+﻿namespace DeviceDiscovery.Enums
 {
     public enum CastMethod
     {

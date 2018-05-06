@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using ConsoleApp1.Enums;
-using ConsoleApp1.Interfaces;
-using ConsoleApp1.Models;
+using DeviceDiscovery.Enums;
+using DeviceDiscovery.Interfaces;
+using DeviceDiscovery.Models;
 using ISimpleHttpServer.Model;
 
-namespace ConsoleApp1.Helpers
+namespace DeviceDiscovery.Helpers
 {
     public static class Convert
     {
