@@ -6,6 +6,9 @@
     <FileVersion>1.1.0.0</FileVersion>
     <Version>1.1.0</Version>
     <PackageId>DeviceDiscovery_Unofficial</PackageId>
+    <AssemblyName>DeviceDiscovery_Unofficial</AssemblyName>
+    <Authors>Tkachenko Yevgeniy (BigDaddy13), pacas00</Authors>
+    <Company>Tkachenko Yevgeniy (BigDaddy13)</Company>
   </PropertyGroup>
 
   <ItemGroup>
