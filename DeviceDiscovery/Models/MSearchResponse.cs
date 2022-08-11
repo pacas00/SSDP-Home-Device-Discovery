@@ -26,9 +26,9 @@ namespace DeviceDiscovery.Models
 
         internal MSearchResponse(string mSearchResponse)
         {
-            var responseKeyValues = mSearchResponse.Split("\r\n");
+            var responseKeyValues = mSearchResponse.Split(new string[] { "\r\n" }, StringSplitOptions.None);
 
-            Dictionary<string, string> headers = responseKeyValues.Select(responseKeyValue => responseKeyValue.Split(':', 2)).Where(test1 => test1.Length == 2).ToDictionary(test1 => test1[0], test1 => test1[1]);
+            Dictionary<string, string> headers = responseKeyValues.Select(responseKeyValue => responseKeyValue.Split(new []{ ':' }, 2, StringSplitOptions.None)).Where(test1 => test1.Length == 2).ToDictionary(test1 => test1[0], test1 => test1[1]);
             try
             {
                 CacheControl = TimeSpan.FromSeconds(HeaderHelpers.GetMaxAge(headers));

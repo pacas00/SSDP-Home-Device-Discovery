@@ -3,7 +3,12 @@
     public enum SearchTarget
     {
         All,
+        //AURORA
         Nanoleaf,
-        Yeelight
+        Yeelight,
+        NanoleafCanvas,
+        NanoleafShapes,
+        NanoleafElements,
+        NanoleafLines,
     }
 }

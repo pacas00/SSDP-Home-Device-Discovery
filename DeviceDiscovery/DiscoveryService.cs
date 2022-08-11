@@ -99,6 +99,14 @@ namespace DeviceDiscovery
                     return "nanoleaf_aurora:light";
                 case SearchTarget.Yeelight:
                     return "wifi_bulb";
+                case SearchTarget.NanoleafCanvas:
+                    return "nanoleaf:nl29";
+                case SearchTarget.NanoleafShapes:
+                    return "nanoleaf:nl42";
+                case SearchTarget.NanoleafElements:
+                    return "nanoleaf:nl52";
+                case SearchTarget.NanoleafLines:
+                    return "nanoleaf:nl59";
                 default:
                     return null;
             }
